@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+   }
+   *:before,
+   *:after {
+    box-sizing: border-box;
+   }
+
+html, body {
+    height: 100%;
+    position: relative;
+    
+  }
+
+
+ p {
+
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+ }
+
+  footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+  }
+
+  .container {
+    min-height: 100vh; 
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; 
+   }
+
+
+
+
+
+
+.panel-body {
+    background: lightgray;
+}
+
+#tButton {
+    background-color: #337ab7;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
